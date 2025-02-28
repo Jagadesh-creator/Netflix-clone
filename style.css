@@ -7,9 +7,11 @@ body{
     height:80px;
     width:180px;
     margin-left:20px;
+    margin-top: 20px;
 }
 .main{
     background: url("landing-background.bc50e450.jpg");
+    max-height: 100%;
 }
 .one{
     display:flex;
