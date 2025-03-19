@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
+body{
     padding:0;
     margin:0;
     box-sizing: border-box;
-    background:url("netflixbackground.png") ;
+    background:url("netflixbackground.png");
 }
 .logo{
     height:80px;
@@ -95,10 +95,9 @@ input::placeholder{
 #sigma{
     font-size:18px;
     width:20vw;
-    padding-top:10px;
+    border:2px solid black;
     text-decoration: none;
     height:5vh;
-    padding:10px 5px;
     background-color:rgba(80, 78, 78, 0.5);
     color:white;
     margin-top:15px;
@@ -144,6 +143,11 @@ input::placeholder{
     color:blue;
     padding:3px;
 }
+.aref{
+    text-decoration: none;
+    text-align: center;
+    color:white;
+}
 </style>
 </head>
 <body>
@@ -163,7 +167,7 @@ input::placeholder{
       <div class="or">Message and data rates may apply</div>
       <button class="Sign">Send sign-in code</button>
       <div class="yes">OR</div>
-      <button id="sigma"><a href="http://127.0.0.1:5500/2.html">Use password</a></button>
+      <button id="sigma"><a class="aref" href="http://127.0.0.1:5500/2.html">Use password</a></button>
       <div class="forgot">Forgot Email or Phone number</div>
       <label class="container">
         <input type="checkbox" checked="checked">
